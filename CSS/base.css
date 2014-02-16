@@ -69,4 +69,5 @@ article h2 {
 footer {
     font-size: 12px;
     padding: 0 10px 0 10px;
+    border: red; 
 }
