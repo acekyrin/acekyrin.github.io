@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -26,14 +26,16 @@ header h1 {
     font-size: 50px;
     font-weight: 500;
     margin-top: 30px;
-    padding: 10px; /*TRouBLe */
+    padding: 20px; /*TRouBLe */
     background-color: #00C196;
+    width: 80%;
+    height: 120%;
 }
 
-header nav {
-    float: left;
-    margin-top: 10px;
+header h2{
+    color: #00C196;
 }
+
 
 header a {
     color: #ffffff;
@@ -41,10 +43,14 @@ header a {
     text-decoration: none;
 }
 
-header a:link {}
+header a:link {
+color: #00C196;
+}
 
 
-header a:visited {}
+header a:visited {
+color: #00C196;
+}
 
 
 header a:hover {
@@ -57,6 +63,11 @@ header a:active {
 
 header a:focus {}
 
+nav {
+    float: left;
+    margin-top: 10px;
+    color: #00C196;
+}
 
 article {
     clear: both;
@@ -75,15 +86,10 @@ article h2 {
     margin-bottom: 4px;
 }
 
-ul
-{list-style-type: circle;
-margin-left: 20px
-}
-aside {
-    background-color: #ffffff;
-    float: right;
-    margin: 0 0  10px 5%;
-    width: 45% 
+ul {
+list-style-type: circle;
+margin-left: 40px
+
 }
 
  footer {
@@ -94,11 +100,12 @@ aside {
 
 .headshot {
     width: 100%;
-    border: 20px solid red;
+    border: 40px;
     float: left;
 }
 
 .left {
     float: left;
+    border: 40px;
 }
     
