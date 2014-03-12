@@ -63,6 +63,10 @@ header a:active {
 
 header a:focus {}
 
+header h1 a { 
+    color: #ffffff !important;
+}
+
 nav {
     float: left;
     margin-top: 10px;
@@ -99,13 +103,20 @@ margin-left: 40px
 }
 
 .headshot {
-    width: 100%;
-    border: 40px;
+    width: 22%;
     float: left;
+}
+
+.headshot img {
+    width: 100%; 
 }
 
 .left {
     float: left;
-    border: 40px;
+}
+
+.testclass {
+clear: left;
+margin: 50px;
 }
     
