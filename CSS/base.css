@@ -8,7 +8,7 @@ body {
     font-family: letter gothic std, serif;
     font-size: 16px;
     line-height: 24px;
-    background-color: #ffffff;
+    background-color: #CCFFFF;
 
 }
 
@@ -21,25 +21,23 @@ header {
 }
 
 header h1 {
+    float: left;
     text-align:center;
     font-family: letter gothic std, arial, sans-serif;
     font-size: 50px;
     font-weight: 500;
     margin-top: 30px;
     padding: 20px; /*TRouBLe */
-    background-color: #00C196;
-    width: 80%;
-    height: 120%;
-}
+    background-color: #00C196; 
+    width: 594px;
+    height: 130%;
+    margin-left: 40px
 
-header h2{
-    color: #00C196;
 }
-
 
 header a {
     color: #ffffff;
-    margin-right: 20px;
+    margin-right: 31px;
     text-decoration: none;
 }
 
@@ -70,6 +68,8 @@ header h1 a {
 nav {
     float: left;
     margin-top: 10px;
+    margin-left: 40px;
+    width: 46%;
     color: #00C196;
 }
 
@@ -81,18 +81,20 @@ article {
 article h1 {
     font-size: 36px;
     line-height: 44px;
-    margin-top: 4px;
+    margin-top: 4px;    
 }
 
 article h2 {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 4px;
+    margin-left: 400px;
+    width: 50%
 }
 
 ul {
 list-style-type: circle;
-margin-left: 40px
+margin-left: 400px
 
 }
 
@@ -100,11 +102,18 @@ margin-left: 40px
     clear: both;
     font-size: 12px;
     padding: 0 10px 0 10px;
+    margin-left: 115px;
+    margin-top: 45px;
+}
+
+.homepage {
+    margin-left: 400px;
 }
 
 .headshot {
-    width: 22%;
+    width: 20%;
     float: left;
+    margin-left: 102px;
 }
 
 .headshot img {
@@ -113,10 +122,35 @@ margin-left: 40px
 
 .left {
     float: left;
+    padding: 10px
 }
+
+.adamsmile {
+    float: right;
+    padding: 0 10px 0 10px;
+}
+
 
 .testclass {
 clear: left;
 margin: 50px;
 }
-    
+
+.contact {
+color: #00C196;
+margin-left: 110px;
+}
+
+.email {
+clear: left;
+text-align:center;
+margin-left: 25%;
+background-color:#00C196;
+color: #ffffff;
+width: 50%
+}
+        
+.about {
+max-width: 63%;
+margin-left: 110px 
+}
