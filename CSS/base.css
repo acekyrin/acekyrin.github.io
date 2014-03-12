@@ -5,9 +5,11 @@
 }    
   
 body {
-    font-family: georgia, serif;
+    font-family: letter gothic std, serif;
     font-size: 16px;
     line-height: 24px;
+    background-color: #ffffff;
+
 }
 
 p {
@@ -15,17 +17,17 @@ p {
 }
 
 header {
-    background-color: #000000;
-    color: #ffffff;
     height: 44px;
 }
 
 header h1 {
-    float: left;
-    font-family: helvetica, arial, sans-serif;
-    font-size: 22px;
+    text-align:center;
+    font-family: letter gothic std, arial, sans-serif;
+    font-size: 50px;
     font-weight: 500;
+    margin-top: 30px;
     padding: 10px; /*TRouBLe */
+    background-color: #00C196;
 }
 
 header nav {
@@ -34,20 +36,27 @@ header nav {
 }
 
 header a {
-    color: #aaaaaa;
+    color: #ffffff;
     margin-right: 20px;
     text-decoration: none;
 }
 
 header a:link {}
+
+
 header a:visited {}
+
+
 header a:hover {
-    color: #ffffff;
+    color: #aaaaaa;
 }
-header a: active {
+
+header a:active {
     text-decoration: underline;
 }
-header a: focus {}
+
+header a:focus {}
+
 
 article {
     clear: both;
@@ -66,8 +75,12 @@ article h2 {
     margin-bottom: 4px;
 }
 
+ul
+{list-style-type: circle;
+margin-left: 20px
+}
 aside {
-    background-color: #000;
+    background-color: #ffffff;
     float: right;
     margin: 0 0  10px 5%;
     width: 45% 
@@ -78,3 +91,14 @@ aside {
     font-size: 12px;
     padding: 0 10px 0 10px;
 }
+
+.headshot {
+    width: 100%;
+    border: 20px solid red;
+    float: left;
+}
+
+.left {
+    float: left;
+}
+    
