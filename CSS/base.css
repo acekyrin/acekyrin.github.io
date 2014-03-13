@@ -59,11 +59,11 @@ header a:active {
     text-decoration: underline;
 }
 
-header a:focus {}
-
 header h1 a { 
     color: #ffffff !important;
 }
+
+/*eventually the header will be lower and go across the whole page like a banner.  I just did not know how to navigate around the logo */
 
 nav {
     float: left;
@@ -72,6 +72,7 @@ nav {
     width: 46%;
     color: #00C196;
 }
+/* I want to eventually make the navigation labels each in their own bubble, and when you hover over the bubble it changes color */
 
 article {
     clear: both;
@@ -94,8 +95,8 @@ article h2 {
 
 ul {
 list-style-type: circle;
-margin-left: 400px
-
+max-width: 50%;
+margin-left: 400px;
 }
 
  footer {
@@ -116,10 +117,6 @@ margin-left: 400px
     margin-left: 102px;
 }
 
-.headshot img {
-    width: 100%; 
-}
-
 .left {
     float: left;
     padding: 10px
@@ -128,12 +125,6 @@ margin-left: 400px
 .adamsmile {
     float: right;
     padding: 0 10px 0 10px;
-}
-
-
-.testclass {
-clear: left;
-margin: 50px;
 }
 
 .contact {
