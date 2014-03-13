@@ -1,3 +1,5 @@
+/* So the concept for this website is that it will look light and creative.  I want to highlight my eloquence using soft colors and thin fonts.  To minimize scrolling I added a lot of pages, and wanted to add as much space as I could between lines without being a hassle.  This website is designed to showcase my work, so the sooner employers see my material, the better.  But because I have a lot of different kinds of material, I need really eye-catching appeals right off the bat.  So, I went for a more simple layout this time around, but I'm open to suggestions */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -10,10 +12,6 @@ body {
     line-height: 24px;
     background-color: #CCFFFF;
 
-}
-
-p {
-    margin-bottom: 16px;
 }
 
 header {
@@ -29,7 +27,7 @@ header h1 {
     margin-top: 30px;
     padding: 20px; /*TRouBLe */
     background-color: #00C196; 
-    width: 594px;
+    width: 590px;
     height: 130%;
     margin-left: 40px
 
@@ -78,7 +76,7 @@ article {
     clear: both;
     padding: 0 10px 0 10px;
 }
-
+/*  I wanted my experiences to be immediately appealing to the eye, and one of the first things people notice on the page.  Eventually, I want the body to quickly fade in as users come to the page for an added aesthetic appeal. */
 article h1 {
     font-size: 36px;
     line-height: 44px;
@@ -98,15 +96,19 @@ list-style-type: circle;
 max-width: 50%;
 margin-left: 400px;
 }
+/*bulletpoints will be something other than circles, I just haven't decided what yet*/
 
- footer {
+p {
+    margin-bottom: 16px;
+}
+
+footer {
     clear: both;
     font-size: 12px;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 0 10px; /* will eventually have a border */
     margin-left: 115px;
     margin-top: 45px;
 }
-
 .homepage {
     margin-left: 400px;
 }
@@ -116,7 +118,7 @@ margin-left: 400px;
     float: left;
     margin-left: 102px;
 }
-
+/* Here I definitely tried to make the picture line up with the top of the page.  Notice the left side extends down from the line in the logo, and the right side matches the end of the "Adam Gerstenfeld Banner”*/
 .left {
     float: left;
     padding: 10px
