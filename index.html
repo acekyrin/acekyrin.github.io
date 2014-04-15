@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>                                                                          
-        <title>Adam Gerstenfeld</title>
+    <head>                                                                          <title>Adam Gerstenfeld</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <link rel="stylesheet" href="CSS/base.css" />
+    </head>
     <body>
-       <header>
-            <figure class="left"> <img src="img/logo.jpg" width="300" alt="Adam Logo" title="Adam Logo"/> </figure>
-        <!--I specifically did not use percentages for the logo because I didn't want that to take up a lot of space on the phone-->
-            <h1>
+        <div class="wrapper">
+    <header>
+        <figure class="left"> <img src="img/logo.jpg" width="250" alt="Adam Logo" title="Adam Logo"/> </figure>
+    <h1>
                 <a href="index.html">Adam Gerstenfeld</a>
            </h1>
+        </header>
+             <div id="homepage">
+            <p>I am a <span class="communicator">communicator</span>, a <span class="student">student</span>, and a <span class="dreamer">dreamer</span>.  Explore my life.
+            </div>
+            <aside>
             <nav>
-                <a href="index.html">Home</a>
+                <p>Home</p>
                 <a href="about.html">About</a>  
                 <a href="tv.html">TV</a>
                 <a href="online.html">Online</a>
@@ -20,30 +25,28 @@
                 <a href="resume.html">Résumé</a>
                 <a href="contact.html">Contact</a>
             </nav>
-           </header> 
-        <!---Eventually the words will be surrounded by a white box, and that wide box will be enclosed by a Grey border--->
+            </aside>
         <article>
-            <div class="headshot">
-                <figure class="left"> <img src="img/adamheadshot.jpg" alt="Adam Gerstenfeld" title="Adam Gerstenfeld" /> </figure>
+        <!--taking out div
+            <div class="headshot">-->
+                <figure> <img src="img/kick.jpg" width="78%" height="270px" alt="Adam Gerstenfeld" title="Adam Gerstenfeld" /> </figure>
+            <div class="talkbubble">
+            
             </div>
-            <div class="homepage">
-                <h1>
-            My Work at UF
-                </h1>
+            <div class="triangle-isosceles">
+    
             </div>
-             <h2>I am an undergraduate student at the University of Florida pursuing a dual degree in Telecommunications and International Studies.
-            </h2>
-                <h2>
-                My experiences include:
-                </h2>
-            <ul>
-                <li>Producing independent content for our live news shows at our NPR affiliate on campus </li>
-                <li>Emceeing the University of Florida World Record event for most people popping bubble wrap</li>
-                <li> Creating the Multicultural and Diversity Affairs Department's first web series</li>
-            </ul>
+            <div class="activity">
+            <img src="img/adamheadshot.jpg" alt="Adam Gerstenfeld" width="150" height="150" title="Adam Gerstenfeld" />
+            <img src="img/hillel.jpg" alt="Adam Gerstenfeld" width="150" height="150" title="Adam Gerstenfeld" />
+            <img src="img/handstand.jpg" alt="Adam Gerstenfeld" width="150" height="150" title="Adam Gerstenfeld" />
+            <img src="img/interfaith.jpg" alt="Adam Gerstenfeld" width="150" height="150" title="Adam Gerstenfeld" />
+                 </div>
         </article>    
         <footer>
         <p>All rights reserved</p>
+        <!--Over here I want to have facebook, twitter, LinkedIn and GooglePlus widgets-->
         </footer> 
+            </div>
         </body>
 </html>

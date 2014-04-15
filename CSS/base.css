@@ -7,76 +7,100 @@
 }    
   
 body {
-    font-family: letter gothic std, serif;
+    font-family: "proxima-nova-n4","proxima-nova",sans-serif;
     font-size: 16px;
     line-height: 24px;
-    background-color: #CCFFFF;
-
+    background-color: #6d695c;
+background-image:
+repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+background-size: 70px 120px;
 }
 
+.wrapper {
+border: 3px solid #00C196;
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
+background-color: #ffffff;
+}
+
+/* make Adam Gerstenfeld center */
 header {
-    height: 44px;
+width: 100%;
+background-color: #00C196; 
+height: 130px;
 }
 
 header h1 {
-    float: left;
-    text-align:center;
-    font-family: letter gothic std, arial, sans-serif;
+    margin-left: 340px;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: 50px;
     font-weight: 500;
-    margin-top: 30px;
-    padding: 20px; /*TRouBLe */
-    background-color: #00C196; 
-    width: 590px;
-    height: 130%;
-    margin-left: 40px
-
-}
-
-header a {
-    color: #ffffff;
-    margin-right: 31px;
-    text-decoration: none;
-}
-
-header a:link {
-color: #00C196;
-}
-
-
-header a:visited {
-color: #00C196;
-}
-
-
-header a:hover {
-    color: #aaaaaa;
-}
-
-header a:active {
-    text-decoration: underline;
+    padding: 50px; /*TRouBLe */
+        
 }
 
 header h1 a { 
     color: #ffffff !important;
+    text-decoration:none;
 }
 
+aside {
+width: 300px;
+height: 40%;
+margin-top: 20px;
+margin-left: 10px;
+font-family: "proxima-nova-n4","proxima-nova",sans-serif;
+color: #00C196;
+}
 /*eventually the header will be lower and go across the whole page like a banner.  I just did not know how to navigate around the logo */
+
+/* I want to eventually make the navigation labels each in their own bubble, and when you hover over the bubble it changes color */
+
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:link {
+color: #00C196;
+}
+
+
+nav a:visited {
+color: #00C196;
+}
+
+
+nav a:hover {
+    color: #aaaaaa;
+}
+
+nav a:active {
+    text-decoration: underline;
+}
 
 nav {
     float: left;
-    margin-top: 10px;
-    margin-left: 40px;
-    width: 46%;
-    color: #00C196;
+    margin-left: 10px;
+    width: 15%;
+    font-size: 25px;
+    color: #aaaaaa; 
+    font-family: Impact, Charcoal, sans-serif;
+    line-height: 35px;  
 }
-/* I want to eventually make the navigation labels each in their own bubble, and when you hover over the bubble it changes color */
+
 
 article {
-    clear: both;
-    padding: 0 10px 0 10px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 170px
 }
-/*  I wanted my experiences to be immediately appealing to the eye, and one of the first things people notice on the page.  Eventually, I want the body to quickly fade in as users come to the page for an added aesthetic appeal. */
+
 article h1 {
     font-size: 36px;
     line-height: 44px;
@@ -98,9 +122,6 @@ margin-left: 400px;
 }
 /*bulletpoints will be something other than circles, I just haven't decided what yet*/
 
-p {
-    margin-bottom: 16px;
-}
 
 footer {
     clear: both;
@@ -108,9 +129,6 @@ footer {
     padding: 0 10px 0 10px; /* will eventually have a border */
     margin-left: 115px;
     margin-top: 45px;
-}
-.homepage {
-    margin-left: 400px;
 }
 
 .headshot {
@@ -131,7 +149,6 @@ footer {
 
 .contact {
 color: #00C196;
-margin-left: 110px;
 }
 
 .email {
@@ -144,6 +161,84 @@ width: 50%
 }
         
 .about {
-max-width: 63%;
-margin-left: 110px 
+width: 80%;
 }
+
+.activity {
+margin-top: 10px;
+word-spacing: 40px
+}
+
+#homepage {
+margin-top: 10px;
+margin-left: 250px;
+font-size: 15px;
+font-family: Impact, Charcoal, sans-serif;
+font-style:italic;
+color: #000000;
+word-spacing: 3px;
+}
+
+.communicator {
+font-family: "Times New Roman", "Times", serif;
+font-size: 22px; 
+}
+
+.student {
+font-family: "Century Gothic", "Times", serif;
+font-size: 22px;
+}
+
+.dreamer {
+font-family: cursive, "Times", serif;
+font-size: 22px;
+
+}
+
+img {
+border: 1px solid #d3d3d3;
+box-shadow: 10px 10px 5px #888888;
+}
+
+
+.boxshadow {
+
+
+/* fix borders on individual pictures */
+
+
+/*
+.talkbubble {
+   width: 320px;
+   height: 40px;
+   background: #00C196;
+   position: relative;  
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+
+.triangle-isosceles {
+  position: relative;
+  padding: 5px;
+    margin-top: 220px;
+    width: 600px;
+    margin-left: 110px;
+  color: #ffffff;
+  background: #d3d3d3;
+  border-radius: 10px;
+  background: linear-gradient(top, #f9d835, #f3961c); 
+}
+
+.triangle-isosceles:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  left: 50px;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #d3d3d3 transparent;
+}
+*/
