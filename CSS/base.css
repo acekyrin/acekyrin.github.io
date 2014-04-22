@@ -1,5 +1,3 @@
-/* So the concept for this website is that it will look light and creative.  I want to highlight my eloquence using soft colors and thin fonts.  To minimize scrolling I added a lot of pages, and wanted to add as much space as I could between lines without being a hassle.  This website is designed to showcase my work, so the sooner employers see my material, the better.  But because I have a lot of different kinds of material, I need really eye-catching appeals right off the bat.  So, I went for a more simple layout this time around, but I'm open to suggestions */
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -27,7 +25,6 @@ margin-right: auto;
 background-color: #ffffff;
 }
 
-/* make Adam Gerstenfeld center */
 header {
 width: 100%;
 background-color: #00C196; 
@@ -76,6 +73,10 @@ nav a:hover {
     color: #aaaaaa;
 }
 
+a:hover {
+    color: #aaaaaa;
+}
+
 nav a:active {
     text-decoration: underline;
 }
@@ -105,12 +106,6 @@ font-size: 25px;
     font-family: Impact, Charcoal, sans-serif;
 }
 
-hr. style-four {
-    height: 12px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
-}
-
 article h1 {
     font-size: 36px;
     line-height: 44px;
@@ -130,8 +125,6 @@ list-style-type: circle;
 max-width: 50%;
 margin-left: 400px;
 }
-/*bulletpoints will be something other than circles, I just haven't decided what yet*/
-
 
 footer {
     clear: both;
